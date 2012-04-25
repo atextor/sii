@@ -16,15 +16,18 @@ Ant targets:
 	ant clean       - Delete all built files
 
 The build process makes use of Proguard (to create a one-in-all
-jar file) and Launch4j to create a Windows .exe.
+jar file) and Launch4j to create a Windows .exe. Note that building
+the jar and exe will only work with Java 6, as the supplied version
+of proguard does not work with Java 7.
 
 Author
 ------
 Andreas Textor <textor.andreas@googlemail.com>
 
 Credits for things I used:
-Music: Kevin MacLeod (incompetech.com)
-Character sprites based on work by Philipp Lenssen
-Level 2 tileset by Hermann Hillmann
-Coin/Balls animation by Marc Russel (gfxlib-fuzed)
+
+ * Music: Kevin MacLeod (incompetech.com)
+ * Character sprites based on work by Philipp Lenssen
+ * Level 2 tileset by Hermann Hillmann
+ * Coin/Balls animation by Marc Russel (gfxlib-fuzed)
 
