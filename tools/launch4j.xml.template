@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>@JARFILE@</jar>
+  <outfile>@EXEFILE@</outfile>
+  <errTitle/>
+  <cmdLine/>
+  <chdir/>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl/>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest/>
+  <icon>@ICONFILE@</icon>
+  <jre>
+    <path>jre</path>
+    <minVersion>1.6.0</minVersion>
+    <maxVersion/>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+  <splash>
+    <file>@SPLASHFILE@</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>60</timeout>
+    <timeoutErr>true</timeoutErr>
+  </splash>
+  <versionInfo>
+    <fileVersion>@VERSION@.0.0</fileVersion>
+    <txtFileVersion>@VERSION@</txtFileVersion>
+    <fileDescription>Studying in Ireland @VERSION@</fileDescription>
+    <copyright>@AUTHOR@</copyright>
+    <productVersion>@VERSION@.0.0</productVersion>
+    <txtProductVersion>@VERSION@</txtProductVersion>
+    <productName>@TITLE@</productName>
+    <companyName/>
+    <internalName>@FILENAME@</internalName>
+    <originalFilename>@FILENAME@.exe</originalFilename>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>

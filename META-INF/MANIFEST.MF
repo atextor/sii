@@ -1,0 +1,2 @@
+Main-Class: de.kantico.sii.game.Sii
+
