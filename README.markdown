@@ -3,6 +3,12 @@ Sii (Studying in Ireland)
 
 Sii is an arcade/old-style-RPG-esque game written in Scala.
 
+Note that several things you see in the game are based on
+real events I encountered while studying in Ireland and for
+this reason may note make total sense to you if you weren't
+there with me. The source code might be interesting
+nevertheless :)
+
 Building
 --------
 
