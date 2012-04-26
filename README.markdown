@@ -26,6 +26,9 @@ jar file) and Launch4j to create a Windows .exe. Note that building
 the jar and exe will only work with Java 6, as the supplied version
 of proguard does not work with Java 7.
 
+This directory is also an Eclipse project. To use it, you need to
+have the ScalaIDE plug-in installed.
+
 Author
 ------
 Andreas Textor <textor.andreas@googlemail.com>
